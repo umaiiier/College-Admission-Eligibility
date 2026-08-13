@@ -1,0 +1,1 @@
+A program to automate and streamline the college admission eligibility evaluation process.
