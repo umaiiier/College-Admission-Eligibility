@@ -1,63 +1,67 @@
-🎓 A program to automate and streamline the college admission eligibility evaluation process.
-
 A simple C++ console-based program that checks whether a student is eligible for admission based on their Intermediate and Matric percentages.
 
 📌 Features
 
-Takes the student's name as input.
-Takes Intermediate percentage.
-Takes Matric percentage.
-Checks admission eligibility.
-Displays a personalized eligibility message.
+Takes the student's name as input
+Takes Intermediate percentage
+Takes Matric percentage
+Checks admission eligibility
+Displays a personalized eligibility message
+
 
 🛠️ Technologies Used
 
 C++
 iostream
-Conditional statements (if, else if, else)
+if, else if, and else
+
 
 
 ⚙️ How It Works
 
 The program:
 
-Displays the college name.
-Asks the user to enter their name.
-Takes their Intermediate percentage.
-Takes their Matric percentage.
-Checks whether they meet the required percentage.
-Displays either an eligibility or rejection message.
+Displays the college name
+Takes the student's name
+Takes Intermediate percentage
+Takes Matric percentage
+Checks admission eligibility
+Displays the result
 
 
 💻 Example
 
-Pakistan College of Technology
-==============================
+Input:
+
 Enter your name: Umair
 Enter your Intermediate Percentage: 80
 Enter your Matric Percentage: 80
 
+Output:
+
 Congratulations! Umair, You are eligible for admission.
+
 
 
 📚 Concepts Practiced
 
+
 Variables
-User input with cin
-Output with cout
+User input using cin
+Output using cout
 string and int data types
-if, else if, and else
+Conditional statements
 Comparison operators
-Basic conditional logic
+Basic decision-making logic
 
 
 🚀 Future Expansions
 
-Add multiple eligibility criteria such as entry test marks and interview scores.
-Support different programs with different admission requirements.
-Add input validation for incorrect or invalid percentages.
-Allow checking eligibility for multiple students.
-Add a simple graphical user interface (GUI).
+Add entry test marks as an eligibility criterion
+Add different admission requirements for different programs
+Add input validation for invalid percentages
+Allow checking eligibility for multiple students
+Add a graphical user interface (GUI)
 
 
 👨‍💻 Author
