@@ -51,6 +51,15 @@ Comparison operators
 Basic conditional logic
 
 
+🚀 Future Expansions
+
+Add multiple eligibility criteria such as entry test marks and interview scores.
+Support different programs with different admission requirements.
+Add input validation for incorrect or invalid percentages.
+Allow checking eligibility for multiple students.
+Add a simple graphical user interface (GUI).
+
+
 👨‍💻 Author
 Umair Naseer
 BSCS Student | Learning C++ & Python
