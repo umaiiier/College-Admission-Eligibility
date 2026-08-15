@@ -1,69 +1,48 @@
-A simple C++ console-based program that checks whether a student is eligible for admission based on their Intermediate and Matric percentages.
+# Pakistan College of Technology — Admission Eligibility System
 
-📌 Features
+A simple C++ console-based admission eligibility system that checks whether a student qualifies for admission based on their Intermediate percentage, Matric percentage, and Entry Test marks.
 
-Takes the student's name as input
-Takes Intermediate percentage
-Takes Matric percentage
-Checks admission eligibility
-Displays a personalized eligibility message
+## 📌 Features
 
+- Takes the student's name as input
+- Takes Intermediate percentage
+- Takes Matric percentage
+- Takes Entry Test marks
+- Checks eligibility using multiple admission criteria
+- Displays a personalized admission result
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
-C++
-iostream
-if, else if, and else
+- C++
+- iostream
+- string
+- Conditional statements
+- Comparison operators
+- Logical operators
 
+## ⚙️ How It Works
 
+The program asks the student to provide:
 
-⚙️ How It Works
+1. Student name
+2. Intermediate percentage
+3. Matric percentage
+4. Entry Test marks
 
-The program:
+The student is considered eligible when all three requirements are satisfied:
 
-Displays the college name
-Takes the student's name
-Takes Intermediate percentage
-Takes Matric percentage
-Checks admission eligibility
-Displays the result
+- Intermediate percentage is **50% or above**
+- Matric percentage is **50% or above**
+- Entry Test marks are **50 or above**
 
+If all conditions are satisfied, the program displays an eligibility confirmation. Otherwise, it displays a rejection message.
 
-💻 Example
+## 💻 Example
 
-Input:
+### Input
 
+```text
 Enter your name: Umair
 Enter your Intermediate Percentage: 80
 Enter your Matric Percentage: 80
-
-Output:
-
-Congratulations! Umair, You are eligible for admission.
-
-
-
-📚 Concepts Practiced
-
-
-Variables
-User input using cin
-Output using cout
-string and int data types
-Conditional statements
-Comparison operators
-Basic decision-making logic
-
-
-🚀 Future Expansions
-
-Add entry test marks as an eligibility criterion
-Add different admission requirements for different programs
-Add input validation for invalid percentages
-Allow checking eligibility for multiple students
-Add a graphical user interface (GUI)
-
-
-👨‍💻 Author
-Umair Naseer
-BSCS Student | Learning C++ & Python
+Enter your Entry Test Marks: 65
