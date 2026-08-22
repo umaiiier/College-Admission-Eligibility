@@ -63,7 +63,7 @@ Congratulations! Umair, You are eligible for admission.
 
 ```text
 Enter your Intermediate Percentage: 120
-Invalid percentage! Please enter a value between 0 and 100.
+Invalid percentage! Please enter a value between 0 and 100:
 ```
 
 ## 📚 Concepts Practiced
@@ -93,6 +93,7 @@ Invalid percentage! Please enter a value between 0 and 100.
 * Introduce functions to organize the program
 * Convert the project to Object-Oriented Programming (OOP)
 * Add a graphical user interface (GUI)
+* Add different admission categories such as Open Merit and Self-Finance
 
 ## 👨‍💻 Author
 
